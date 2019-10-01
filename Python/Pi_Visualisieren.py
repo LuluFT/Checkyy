@@ -19,7 +19,7 @@ for n in range (lines):
     zahl = int(pi[n])
     rotation = zahl * 36
     tu.setheading(rotation)
-    tu.forward(5)
+    tu.forward(1)
     if n % 10_000 == 0:
         tu.update()
 

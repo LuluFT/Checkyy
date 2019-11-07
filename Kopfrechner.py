@@ -53,8 +53,9 @@ while leben != 0:
         print ("Leben übrig:",leben) 
         print("")
         print("")
-        print("Nächster Versuch:")
+        print("Neuer Versuch:")
         print("")
+        print (lstEins[3],"+",lstEins[60],"=",)
     #wenn man kein Leben mehr hat, wird einem unter die Nase gerieben, dass man verloren hat und das Programm beendet sich.
     if leben == 0:
         print ("Leider verloren!")

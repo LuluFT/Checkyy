@@ -1,3 +1,0 @@
-import Wordcloud as wc 
-
-

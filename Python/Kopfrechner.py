@@ -18,10 +18,8 @@ lösung = (lstEins[3]+lstEins[60])
 Aufgabe = 1 #Variabel um die aktuelle Nummer der Aufgabe anzuzeigen.
 
 #Hier werden mehrere Absätze erstellt, welche im Terminal angezeigt werden.
-print("")
-print("")
-print("")
-print("")
+for n in range(4):
+    print("")
 
 #Hier wird die Aufgabe initialisiert. Es wird ein String angezeigt mit unten stehendem Text und anschließend wird die Aufgaben NR und die Aufgabe angezeigt.
 print ("Hallo, bitte geben Sie die Lösung ein, zu der Aufgabe:")
@@ -85,11 +83,9 @@ if leben == 0:
         print("Das Programm lief:",Sekunde.__round__(),"Sekunden")
     elif Sekunde >= 60:
         Minute = int(Sekunde/60)
+        Restwert=float(Sekunde%60).__round__(2)
         if Minute == 1:
-            print("Das Programm lief:",Minute,"Minute")
+            print("Das Programm lief:","Minute")
         elif Minute >= 1:
-            print ("Das Programm lief:",Minute,"Minuten")
+            print ("Das Programm lief:",Minute,Restwert,"Minuten und Sekunden")
     exit()
-       
-
- 
